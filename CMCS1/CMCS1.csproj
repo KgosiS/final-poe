@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Exploring the Digital World_ A Journey Through Innovation.jpg" />
+    <None Remove="Powerful Video Ads for Effective Business Marketing.jpg" />
+    <None Remove="Zero trust mythbuster – why identity and access management still matter in a zero trust world.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="3.1.0" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Exploring the Digital World_ A Journey Through Innovation.jpg" />
+    <Resource Include="Powerful Video Ads for Effective Business Marketing.jpg" />
+    <Resource Include="Zero trust mythbuster – why identity and access management still matter in a zero trust world.jpg" />
+  </ItemGroup>
+
+</Project>
